@@ -47,3 +47,9 @@ $ ps -ef | grep catalina*
 $ ps -ef | grep java | grep tomcat
 ```
 
+참고) 실행중인 프로세스 강제종료
+
+```
+$ kill -9 <PID>
+```
+

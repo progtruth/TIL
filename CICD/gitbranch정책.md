@@ -30,3 +30,9 @@ feature -> develop -> master -> prod
 4. origin/develop에 merge request 후 merge 
 5. 테스트1환경으로 배포 요청 
 
+
+#### (참고) prune 옵션
+
+- Git Remote에 없는 Branch에 대한 Local Remote Tracking을 없앨 때 사용
+- `git fetch` 명령어를 수행하게 되면 remote에 있는 branch를 가져오는데, 여기에 `--prune`옵션을 주게되면, remote에 존재하지 않는 브랜치들에 대한 reference를 local에서 삭제하는 작업도 진행된다.
+
