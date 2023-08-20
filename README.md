@@ -5,8 +5,7 @@ Today I Learned
 ## Batch
 
 - [배치실행방법](/Batch/배치실행방법.md)
-
-
+- [파일Read방법 FlatFileItemReader 사용](파일read_by_FlatFileItemReader.md)
 
 
 ## CI/CD
@@ -20,4 +19,9 @@ Today I Learned
 - [WEB/WAS 서버 재기동 방법](/Linux/WebWas서버재기동방법.md)
 
 ## Spring
+
+- [ModelMapper로 DTO 매핑하는 방법](/Spring/DTO매핑_by_ModelMapper.md)
+
+  ​
+
 
