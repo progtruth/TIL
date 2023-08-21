@@ -17,11 +17,16 @@ Today I Learned
 - [alias별칭 만드는 방법](/Linux/alias별칭만드는방법.md)
 - [gzip파일 압축/압축해제](/Linux/gzip파일압축,압축해제.md)
 - [WEB/WAS 서버 재기동 방법](/Linux/WebWas서버재기동방법.md)
+- [권한 조회/수정 명령어](/Linux/권한_조회수정.md)
+- [WAS 서버에서 CPU사용률 확인 명령어](/Linux/CPU사용률확인.md)
 
 ## Spring
 
 - [ModelMapper로 DTO 매핑하는 방법](/Spring/DTO매핑_by_ModelMapper.md)
 
-  ​
 
+
+## DB SQL
+
+- [MySQL](/DB_SQL/MySQL.md)
 
