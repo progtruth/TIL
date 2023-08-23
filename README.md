@@ -23,6 +23,7 @@ Today I Learned
 ## Spring
 
 - [ModelMapper로 DTO 매핑하는 방법](/Spring/DTO매핑_by_ModelMapper.md)
+- [쿼리 조회결과가 NULL인 Service method 처리 예제](/Spring/쿼리조회결과_NULL_Service에서처리_예제.md)
 
 
 
