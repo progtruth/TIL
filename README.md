@@ -6,6 +6,7 @@ Today I Learned
 
 - [배치실행방법](/Batch/배치실행방법.md)
 - [파일Read방법 FlatFileItemReader 사용](파일read_by_FlatFileItemReader.md)
+- [배치작업에서 환경변수 사용하는 방법](/Batch/환경변수활용.md)
 
 
 ## CI/CD
