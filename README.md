@@ -7,6 +7,7 @@ Today I Learned
 - [배치실행방법](/Batch/배치실행방법.md)
 - [파일Read방법 FlatFileItemReader 사용](파일read_by_FlatFileItemReader.md)
 - [배치작업에서 환경변수 사용하는 방법](/Batch/환경변수활용.md)
+- [MyBatisBatchItemWriter 에서 update시 변경사항 없으면 오류 발생](/Batch/MyBatisBatchItemWriter_update_null오류.md)
 
 
 ## CI/CD
@@ -25,10 +26,13 @@ Today I Learned
 
 - [ModelMapper로 DTO 매핑하는 방법](/Spring/DTO매핑_by_ModelMapper.md)
 - [쿼리 조회결과가 NULL인 Service method 처리 예제](/Spring/쿼리조회결과_NULL_Service에서처리_예제.md)
+- [테스트환경에 logback 적용 방법](/Spring/Logback적용.md)
 
 
 
 ## DB SQL
 
 - [MySQL](/DB_SQL/MySQL.md)
+- [DB모델링](/DB_SQL/DB모델링.md)
+
 

@@ -36,3 +36,11 @@ feature -> develop -> master -> prod
 - Git Remote에 없는 Branch에 대한 Local Remote Tracking을 없앨 때 사용
 - `git fetch` 명령어를 수행하게 되면 remote에 있는 branch를 가져오는데, 여기에 `--prune`옵션을 주게되면, remote에 존재하지 않는 브랜치들에 대한 reference를 local에서 삭제하는 작업도 진행된다.
 
+
+#### (참고) branch의 특정 commit상태로 new branch 생성 명령어
+
+```
+// 브랜치A의 특정 커밋 상태(commit_id)로 새로운 브랜치B 만들기
+$ git checkout -b <new_branch> <commit_id>
+```
+

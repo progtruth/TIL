@@ -7,3 +7,9 @@ where table_schema = '스키마명'
 and table_name like "%테이블명규칙%" ;
 ```
 
+## Mysql 버전 확인
+
+```mysql
+select version();
+```
+
