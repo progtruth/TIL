@@ -8,6 +8,7 @@ Today I Learned
 - [파일Read방법 FlatFileItemReader 사용](파일read_by_FlatFileItemReader.md)
 - [배치작업에서 환경변수 사용하는 방법](/Batch/환경변수활용.md)
 - [MyBatisBatchItemWriter 에서 update시 변경사항 없으면 오류 발생](/Batch/MyBatisBatchItemWriter_update_null오류.md)
+- [DataShareBean사용방법](/Batch/DataShareBean.md)
 
 
 ## CI/CD
