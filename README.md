@@ -37,3 +37,8 @@ Today I Learned
 - [DB모델링](/DB_SQL/DB모델링.md)
 
 
+## Architecture
+
+- [tenant이란?](/Architecture/tenant.md)
+- [WEB서버와 WAS서버](/Architecture/WEB_WAS서버관계.md)
+
