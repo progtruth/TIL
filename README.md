@@ -43,5 +43,6 @@ Today I Learned
 - [WEB서버와 WAS서버](/Architecture/WEB_WAS서버관계.md)
 - [NAS를 서버에 마운트](/Architecture/NAS를_서버에_마운트.md)
 - [가상IP와 NAT](/Architecture/Virtuual_IP와_NAT.md)
+- [Kafka Sub할때 중복/누락되는 데이터가 없을까?](/Architecture/KafkaSub중복누락데이터.md)
 
 
