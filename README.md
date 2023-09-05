@@ -9,6 +9,7 @@ Today I Learned
 - [배치작업에서 환경변수 사용하는 방법](/Batch/환경변수활용.md)
 - [MyBatisBatchItemWriter 에서 update시 변경사항 없으면 오류 발생](/Batch/MyBatisBatchItemWriter_update_null오류.md)
 - [DataShareBean사용방법](/Batch/DataShareBean.md)
+- [Mybatis연동](/Batch/Mybatis연동.md)
 
 
 ## CI/CD
@@ -28,6 +29,7 @@ Today I Learned
 - [ModelMapper로 DTO 매핑하는 방법](/Spring/DTO매핑_by_ModelMapper.md)
 - [쿼리 조회결과가 NULL인 Service method 처리 예제](/Spring/쿼리조회결과_NULL_Service에서처리_예제.md)
 - [테스트환경에 logback 적용 방법](/Spring/Logback적용.md)
+- [MySql Decimal 타입의 NULL 처리방법](/Spring/MySql_Decimal타입의_NULL처리방법.md)
 
 
 
@@ -44,5 +46,4 @@ Today I Learned
 - [NAS를 서버에 마운트](/Architecture/NAS를_서버에_마운트.md)
 - [가상IP와 NAT](/Architecture/Virtuual_IP와_NAT.md)
 - [Kafka Sub할때 중복/누락되는 데이터가 없을까?](/Architecture/KafkaSub중복누락데이터.md)
-
 
