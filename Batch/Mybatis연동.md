@@ -72,3 +72,27 @@ public class TestJobConfig extends BaseJob {
 }
 ```
 
+
+
+### Service에서 Mybatis로 DB연동 예시코드
+
+```java
+    @Autowired
+    private SqlSessionTemplate sqlSessionTemplate;
+
+    public EntrService (SqlSessionTemplate sqlSessionTemplate) {
+        this.sqlSessionTemplate = sqlSessionTemplate;
+    }
+
+    public void selectCommonCd() {
+        Map<String, Object> parameterValues = new HashMap<>();
+        parameterValues.put("commonCd", "ENTR_COMMON_CD");
+        
+        List<CommonCdDTO> cmmCdDList = sqlSessionTemplate.selectList("TestMapper.selectCommonCd", parameterValues);
+
+        for (CommonCdDTO cmmCd : cmmCdDList) {
+            log.debug("\n##### 공통코드ID : {} === 공통코드한글명 : {}", cmmCd.getCommonCd(), cmmCd.getCommonCdNm());
+        }
+    }
+```
+
