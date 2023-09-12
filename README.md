@@ -30,6 +30,7 @@ Today I Learned
 - [쿼리 조회결과가 NULL인 Service method 처리 예제](/Spring/쿼리조회결과_NULL_Service에서처리_예제.md)
 - [테스트환경에 logback 적용 방법](/Spring/Logback적용.md)
 - [MySql Decimal 타입의 NULL 처리방법](/Spring/MySql_Decimal타입의_NULL처리방법.md)
+- [버튼클릭 Macro](/Spring/클릭Macro.md)
 
 
 
