@@ -3,7 +3,7 @@
 - Spring에서 kafka library 활용하여 sub 구현
 
 ```java
-Consumer<String, String> consumer = new KafkaConsumer<>(configSub.props(consumer_id));
+Consumer<String, String> consumer = new KafkaConsumer<>(properties);
 
 // 연결할 토픽 구독
 consumer.subscribe(Collections.singleton(topicName));
@@ -38,4 +38,21 @@ ConsumerRecords<String, String> records = consumer.poll(Duration.ofSeconds(5));
 - 각 파티션마다 별도의 offset을 가지며, 컨슈머 그룹의 각 컨슈머마다 <u>파티션의 마지막 offset정보</u>를 기억하고 있음.
 - 컨슈머는 offset정보를 통해서 어디까지 메시지를 가져왔는지 확인가능
     - 어디까지 메시지를 읽었는지, 누락없이 모든 메시지를 읽었는지 정확하게 판별가능함
+
+
+
+
+#### (참고 라이브러리)
+
+```java
+import java.time.Duration;
+import java.util.Collections;
+import java.util.Properties;
+
+import org.apache.kafka.clients.consumer.Consumer;
+import org.apache.kafka.clients.consumer.ConsumerConfig;
+import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.apache.kafka.clients.consumer.ConsumerRecords;
+import org.apache.kafka.clients.consumer.KafkaConsumer;
+```
 
