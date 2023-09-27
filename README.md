@@ -48,3 +48,8 @@ Today I Learned
 - [가상IP와 NAT](/Architecture/Virtuual_IP와_NAT.md)
 - [Kafka Sub할때 중복/누락되는 데이터가 없을까?](/Architecture/KafkaSub중복누락데이터.md)
 
+
+## 그외 기타
+
+- [JCO](/etc/JCO.md)
+
